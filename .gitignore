@@ -1,2 +1,4 @@
-venv/
 .vscode/
+venv/
+.gitignore
+.DS_Store
