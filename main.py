@@ -8,6 +8,7 @@ class Card:
 
     def __init__(self, cvv = None, number = None, card_date = None):
         self.set_data()
+        print(self.get_data())
 
     def set_data(self, cvv = None, number = None, card_date = None):
         if number is None:
