@@ -6,11 +6,11 @@ class Card:
     cvv = None
     card_date = None
 
-    def __init__(self, cvv = None, number = None, card_date = None):
+    def __init__(self, cvv: int = None, number: str = None, card_date: str = None):
         self.set_data()
         print(self.get_data())
 
-    def set_data(self, cvv = None, number = None, card_date = None):
+    def set_data(self, cvv: int = None, number: str = None, card_date: str = None):
         if number is None:
             self.numebr = self.generate_number()
         else:
